@@ -1,7 +1,7 @@
 node-qr-image
 ========
 
-[![npm version](https://badge.fury.io/js/qr-image.svg)](https://badge.fury.io/js/qr-image)
+[![npm version](https://badge.fury.io/js/node-qr-image.svg)](http://badge.fury.io/js/node-qr-image)
 
 #####THIS REPO IS BESED ON [alexeyten/qr-image](https://github.com/alexeyten/qr-image)
 
