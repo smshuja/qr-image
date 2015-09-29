@@ -3,6 +3,10 @@ qr-image
 
 [![npm version](https://badge.fury.io/js/qr-image.svg)](https://badge.fury.io/js/qr-image)
 
+#####THIS REPO IS BESED ON [alexeyten/qr-image](https://github.com/alexeyten/qr-image)
+
+####DIFFERENCES: change `size` option to image width & height.
+
 This is yet another QR Code generator.
 
 Overview
@@ -55,7 +59,7 @@ var svg_string = qr.imageSync('I love QR!', { type: 'svg' });
   * `options` — image options object:
     * `ec_level` — default `M`.
     * `type` — image type. Possible values `png` (default), `svg`, `pdf` and `eps`.
-    * `size` (png and svg only) — size of one module in pixels. Default `5` for png and `undefined` for svg.
+    * `size` (png and svg only) — size of IMAGE in pixels. Default `100` for png and `undefined` for svg.
     * `margin` — white space around QR image in modules. Default `4` for `png` and `1` for others.
     * `customize` (only png) — function to customize qr bitmap before encoding to PNG.
     * `parse_url` (experimental, default `false`) — try to optimize QR-code for URLs.
