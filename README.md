@@ -22,14 +22,14 @@ Overview
   * numeric and alphanumeric modes;
   * support UTF-8.
 
-[Releases](https://github.com/alexeyten/qr-image/releases/)
+[Releases](https://github.com/wanming/qr-image/releases/)
 
 
 Installing
 -----
 
 ```shell
-npm install qr-image
+npm install node-qr-image
 ```
 
 Usage
@@ -37,7 +37,7 @@ Usage
 
 Example:
 ```javascript
-var qr = require('qr-image');
+var qr = require('node-qr-image');
 
 var qr_svg = qr.image('I love QR!', { type: 'svg' });
 qr_svg.pipe(require('fs').createWriteStream('i_love_qr.svg'));
@@ -47,7 +47,7 @@ var svg_string = qr.imageSync('I love QR!', { type: 'svg' });
 
 [More examples](./examples)
 
-`qr = require('qr-image')`
+`qr = require('node-qr-image')`
 
 ### Methods
 
